@@ -1535,6 +1535,10 @@ main {
     .holiday-list { padding-right: 0 !important; }
     .holiday-list li { display: flex !important; flex-direction: column !important; padding: 12px 0 !important; border-bottom: 1px solid #f0f0f0 !important; font-size: 13px !important; }
     .holiday-list li strong { margin-bottom: 4px !important; }
+    
+    /* 6. Form Select Dropdown Mobile Fixes */
+    .custom-option { padding: 10px 15px !important; font-size: 11px !important; }
+    .custom-select-trigger span { font-size: 11px !important; }
 }
 
 /* =========================================

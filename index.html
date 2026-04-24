@@ -33,8 +33,15 @@
 
     <main class="page-content">
         
+
+        <div style="display: flex; justify-content: center; width: 100%; margin-bottom: 30px;">
+            <img src="Images/campus.jpg" alt="School Campus" style="width: 100%; max-width: 1000px; border-radius: 20px; box-shadow: var(--shadow); object-fit: cover;">
+        </div>
+
+     
+        
         <section class="hero">
-            <div class="hero-content scroll-anim anim-fade-right">
+            <div class="hero-content scroll-anim anim-fade-up">
                 
                 <br>
                 <br>
@@ -46,6 +53,7 @@
                 </div>
             </div>
           
+            
         </section>
 
         <section class="quick-links-section">
@@ -90,7 +98,7 @@
         <section class="programs-section">
             <h2 class="section-title scroll-anim anim-fade-up">Our Early Years Program</h2>
             <div class="programs-grid scroll-anim anim-fade-up delay-200">
-                <div class="flip-card">
+                <div class="flip-card" onclick="this.classList.toggle('flipped')">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <h3>🌱 Nursery Program</h3>
@@ -102,7 +110,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flip-card">
+                <div class="flip-card" onclick="this.classList.toggle('flipped')">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <h3>🎨 Junior KG</h3>
@@ -113,7 +121,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flip-card">
+                <div class="flip-card" onclick="this.classList.toggle('flipped')">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <h3>📚 Senior KG</h3>
@@ -131,7 +139,7 @@
                 <div class="news-col scroll-anim anim-fade-left">
                     <h2 class="section-title" style="text-align: left;">Latest News</h2>
                     <div class="news-grid-small">
-                        <div class="flip-card">
+                        <div class="flip-card" onclick="this.classList.toggle('flipped')">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front" style="padding: 0;">
                             <img src="Images/drawing.jpg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;" alt="Science Fair">
@@ -139,13 +147,13 @@
                                         <h4 style="margin: 0; font-size: 16px; text-align: center;">drawing competition</h4>
                                     </div>
                                 </div>
-                                <div class="flip-card-back">
+                                <div class="flip-card-back" style="background: linear-gradient(rgba(10, 54, 99, 0.85), rgba(17, 75, 138, 0.85)), url('Images/drawing.jpg') center/cover;">
                                     <h4 style="margin-bottom: 10px; font-size: 18px;">Drawing Competition Results</h4>
                                     <p>These competitions provide a platform for primary school students to showcase their artistic talents and receive national-level recognition. They also offer prizes and certificates, which can boost students' confidence and motivation to continue their artistic pursuits .</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="flip-card">
+                        <div class="flip-card" onclick="this.classList.toggle('flipped')">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front" style="padding: 0;">
                             <img src="Images/Graduation Day.jpg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;" alt="Graduation Details">
@@ -153,13 +161,13 @@
                                         <h4 style="margin: 0; font-size: 16px; text-align: center;">Graduation Details</h4>
                                     </div>
                                 </div>
-                                <div class="flip-card-back">
+                                <div class="flip-card-back" style="background: linear-gradient(rgba(10, 54, 99, 0.85), rgba(17, 75, 138, 0.85)), url('Images/Graduation Day.jpg') center/cover;">
                                     <h4 style="margin-bottom: 10px; font-size: 18px;">Class of 2026 Graduation Details</h4>
                                     <p>Important information for seniors and families...</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="flip-card">
+                        <div class="flip-card" onclick="this.classList.toggle('flipped')">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front" style="padding: 0;">
                             <img src="Images/quiz .jpg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;" alt="Quiz Results">
@@ -167,13 +175,13 @@
                                         <h4 style="margin: 0; font-size: 16px; text-align: center;">Quiz Results</h4>
                                     </div>
                                 </div>
-                                <div class="flip-card-back">
+                                <div class="flip-card-back" style="background: linear-gradient(rgba(10, 54, 99, 0.85), rgba(17, 75, 138, 0.85)), url('Images/quiz .jpg') center/cover;">
                                     <h4 style="margin-bottom: 10px; font-size: 18px;">Quiz Results</h4>
                                     <p>Check out the latest quiz results and rankings...</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="flip-card">
+                        <div class="flip-card" onclick="this.classList.toggle('flipped')">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front" style="padding: 0;">
                             <img src="Images/annual.jpg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;" alt="Admission Information">
@@ -181,7 +189,7 @@
                                         <h4 style="margin: 0; font-size: 16px; text-align: center;">Annual Function</h4>
                                     </div>
                                 </div>
-                                <div class="flip-card-back">
+                                <div class="flip-card-back"style="background: linear-gradient(rgba(10, 54, 99, 0.85), rgba(17, 75, 138, 0.85)), url('Images/annual.jpg') center/cover;">
                                     <h4 style="margin-bottom: 10px; font-size: 18px;">Annual Function</h4>
                                     <p>Join us for our annual function celebrating student achievements and school spirit!</p>
                                 </div>

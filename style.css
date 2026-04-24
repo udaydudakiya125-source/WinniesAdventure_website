@@ -849,6 +849,15 @@ main {
 /* Hide filtered items */
 .filter-item.hide { display: none; }
 
+/* Activity Grid Layout */
+.activity-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 /* Split Section (Spotlight & Calendar) */
 /* Split Section (Stacked Vertically) */
 .split-section { margin-bottom: 120px; }
@@ -1492,15 +1501,15 @@ main {
     .event-tag { position: static !important; display: inline-block !important; margin-bottom: 10px !important; }
     
     /* Comprehensive Mobile fixes for Activity Section */
-    .activity-gallery-section { padding: 20px 0 !important; }
-    .section-header.center { margin-bottom: 30px !important; gap: 10px !important; }
-    .section-header.center .section-title { padding: 10px 20px !important; font-size: 22px !important; }
-    .section-subtitle { padding: 8px 15px !important; font-size: 14px !important; }
-    .filter-controls { margin-bottom: 30px !important; gap: 6px !important; padding: 0 10px !important; }
-    .filter-btn { font-size: 11px !important; padding: 8px 12px !important; min-width: auto !important; }
-    .activity-grid { grid-template-columns: 1fr !important; gap: 15px !important; margin-bottom: 40px !important; max-width: 100% !important; }
-    .activity-card { width: 100% !important; margin: 0 auto !important; max-width: 100% !important; }
-    .card-img-wrapper { height: 160px !important; }
+    .activity-gallery-section { padding: 20px 15px !important; width: 100% !important; box-sizing: border-box !important; overflow: hidden !important; }
+    .section-header.center { margin-bottom: 30px !important; gap: 10px !important; width: 100% !important; }
+    .section-header.center .section-title { padding: 10px 20px !important; font-size: 22px !important; text-align: center; }
+    .section-subtitle { padding: 8px 15px !important; font-size: 14px !important; text-align: center; box-sizing: border-box !important; }
+    .filter-controls { margin-bottom: 30px !important; gap: 10px !important; padding: 0 !important; display: flex; flex-wrap: wrap; justify-content: center; }
+    .filter-btn { font-size: 12px !important; padding: 10px 15px !important; min-width: auto !important; }
+    .activity-grid { display: grid !important; grid-template-columns: 1fr !important; gap: 20px !important; margin-bottom: 40px !important; width: 100% !important; box-sizing: border-box !important; }
+    .activity-card { width: 100% !important; margin: 0 auto !important; box-sizing: border-box !important; overflow: hidden !important; }
+    .card-img-wrapper { height: 160px !important; width: 100% !important; }
     .activity-card-content { padding: 15px !important; }
     .activity-card-content h3 { font-size: 18px !important; margin-bottom: 8px !important; }
     .activity-card-content p { font-size: 13px !important; line-height: 1.4 !important; }
